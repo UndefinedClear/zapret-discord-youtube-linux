@@ -5,16 +5,6 @@ sudo pacman -S nftables
 
 https://youtu.be/NycT3IKNBAc?si=fdMLBo3Aw5FTh6TE
 
-
-На ней я захардкодил последний рабочий конфиг от Flowseal на коммите dcdb0a3dce0675e3ac8d226a238865e060f8c6be. Соотвественнно новые стратегии пока не подтягиваются.
-Если кто отдебажит, то можете лить Pull request на мастер ветку.
-Обсуждение по проблемме предалагаю вести [тут](https://github.com/Sergeydigl3/zapret-discord-youtube-linux/issues/33).
-Включать автообновление пока не имеет смысла, так как захардкожена [эта](https://github.com/Flowseal/zapret-discord-youtube/commit/dcdb0a3dce0675e3ac8d226a238865e060f8c6be) версия.
-
-Сам доберусь до апдейтов вероятно не скоро.
-
-Также можете попробовать [эту](https://github.com/Snowy-Fluffy/zapret.installer) версию от Snowy-Fluffy
-
 # Что это?
 
 Это адаптер для запуска популярных конфигураций обхода замедления YouTube  
@@ -121,7 +111,4 @@ journalctl -u zapret_discord_youtube.service
 
 ---
 
-# Поддержка
-
-- Если есть идеи по улучшению — создавайте Pull Request (например, добавить поддержку iptables).
-- Если что-то не работает, создавайте Issue (пожалуйста, не пишите в личные сообщения) — так мы сможем помочь как можно большему числу пользователей.
+[!md](<beeline_working_cfgs.md>)
