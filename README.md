@@ -1,4 +1,10 @@
 # !!! Внимание, это stable2 ветка. !!!
+```bash
+sudo pacman -S nftables
+```
+
+https://youtu.be/NycT3IKNBAc?si=fdMLBo3Aw5FTh6TE
+
 
 На ней я захардкодил последний рабочий конфиг от Flowseal на коммите dcdb0a3dce0675e3ac8d226a238865e060f8c6be. Соотвественнно новые стратегии пока не подтягиваются.
 Если кто отдебажит, то можете лить Pull request на мастер ветку.
